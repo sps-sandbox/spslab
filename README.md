@@ -1,29 +1,3 @@
-# SPS Sandbox
-Purpose: 
-To quickly demonstrate use case which are not available in democenter and been timeconsuming for custom setup (with CSC)
-
-
-Out of Scope: 
-Any performance test  on Storage array 
-
-
-	
-![image](https://github.com/user-attachments/assets/afcd9d8d-8538-4273-bff9-ca5afdd2e972)
-
-In the initial phase, use case related to Phase I infrastructure are delivered. Use case related to Phase II infra will be delivered by March'25
-
-
-
-Usecases: 
-
-Phase I
-![image](https://github.com/user-attachments/assets/536db3bd-ae7d-4cdf-912a-cfea3132b48c)
-
-Phase II
-		
-![image](https://github.com/user-attachments/assets/e413d0ef-bfda-4af9-ae4e-e123fef37233)
-
-
 
 # SPS Sandbox
 
@@ -50,8 +24,16 @@ In the initial phase, use cases related to Phase I infrastructure are delivered.
 
 ## Use Cases:
 
-| Use Case                        | Storage    | Scope                                                                                       |
-|----------------------------------|------------|---------------------------------------------------------------------------------------------|
-| **Phase I**                      |            |                                                                                             |
-| 1. General Management Capability | PowerFlex  | Demonstrate general management capability including replication through PowerFlex Manager 4.6|
-| 2. General Management Capability | PowerStore | Demonstrate general management capability including replication through PowerStore Manager 4 (Block only) |
+| Use Case                        | Storage               | Scope                                                                                                                                       |
+|----------------------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Phase I**                      |                       |                                                                                                                                             |
+| 1. General Management Capability | PowerFlex             | Demonstrate general management capability, including replication through PowerFlex Manager 4.6.                                              |
+| 2. General Management Capability | PowerStore            | Demonstrate general management capability, including replication through PowerStore Manager 4 (Block only).                                   |
+| 3. Container Workloads on OpenShift | PowerStore & PowerFlex | Provisioning of Persistent Volumes on PowerStore and PowerFlex using Dell CSI drivers.  <br> - Showcase volume lifecycle <br> - Showcase snapshot creation <br> - Create PVC from snapshots. <br> **Extension** (needs additional effort): <br> - Can be shown on upstream Kubernetes <br> - PowerScale provisioning can be shown. |
+| 4. Resiliency for Container Workloads on OpenShift | PowerFlex, PowerStore | Showcase node resiliency on OpenShift clusters using the CSM Resiliency module on PowerFlex and PowerStore. <br> - Shutdown node <br> - Shutdown network. |
+| 5. Stateful Application Replication Capability | PowerFlex, PowerStore | Showcase replication capability on PowerFlex (async) and PowerStore (sync & async) with CSM replication module on OpenShift. <br> - Failover application/pod to target <br> - Reprotect workload at target <br> - Failover back to source. <br> **Extension** (needs additional configuration effort): <br> 1. Can be shown on upstream Kubernetes. |
+| 6. Role-Based Access Control for Storage with OpenShift | PowerFlex             | Showcase CSM Authorization capability on PowerFlex. <br> - Define storage quota at cluster level (OpenShift) <br> - Restrict storage admin credentials to OpenShift admin. <br> **Extension** (needs additional configuration effort): <br> 1. Can be shown on PowerScale <br> 2. Other supported Kubernetes distributions. |
+| **Phase II**                     |                       |                                                                                                                                             |
+| 7. Application Mobility (Container Workloads) | PowerStore            | Showcase application mobility across the same or different Kubernetes clusters with PowerStore.                                               |
+| 9. Infrastructure Provisioning   | PowerFlex, PowerStore | Showcase IaC. Covers: <br> 1. Build/Modify code with Visual Studio Code (integration with Git) <br> 2. Source code management <br> 3. Continuous integration (integration with Ansible lint/SonarQube) <br> 4. Continuous Deployment (integration with deployment tools - cloud-init, Ansible modules for PowerStore/PowerFlex). |
+| 10. GitOps with Dell Storage     | PowerFlex             |                                                                                                                                             |
