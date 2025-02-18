@@ -7,7 +7,7 @@ To quickly demonstrate use cases that are not available in Democenter and been t
 ## Out of Scope:
 Any performance tests on storage arrays.
 
-In the initial phase, Phase I use cases are delivered. Use cases related to Phase II infrastructure will be delivered by March 2025.
+In the initial phase, Phase I use cases are delivered. Phase II use cases will be delivered by March 2025.
 
 ## Setup
 
