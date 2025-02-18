@@ -2,7 +2,7 @@
 # SPS Sandbox
 
 ## Purpose:
-To quickly demonstrate use cases that are not available in Democenter and have been time-consuming for custom setups (with CSC).
+To quickly demonstrate use cases that are not available in Democenter and been time-consuming for custom setups (with CSC).
 
 ## Out of Scope:
 Any performance tests on storage arrays.
