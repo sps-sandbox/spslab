@@ -16,7 +16,7 @@ In the initial phase, Phase I use cases are delivered. Phase II use cases will b
 | PowerFlex 4.6 x 2 (PF01 & PF02)           | SUSE Rancher                                     |
 | PowerStore 4 x 2 (PowerStore-1 & PowerStore-2) | Ansible / Ansible Modules (Dell Storage)        |
 | PowerScale                                | Terraform / Terraform Providers (Dell Storage)   |
-| Openshift (2 clusters, v4.17)             | Cloud Native / Stateful Applications / Database (MSSQL, MongoDB) |
+| Openshift (2 compact clusters, v4.17)             | Cloud Native / Stateful Applications / Database (MSSQL, MongoDB) |
 | Dell CSI drivers for PowerFlex & PowerStore | GitLab / GitHub                                |
 | Dell CSM Replication modules for PowerFlex & PowerStore | Ansible Lint / SonarQube                       |
 | Dell CSM Auth module for PowerFlex        | ArgoCD / FluxCD                                  |
