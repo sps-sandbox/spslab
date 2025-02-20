@@ -38,6 +38,7 @@ In the initial phase, Phase I use cases are delivered. Phase II use cases will b
 | 9. Infrastructure Provisioning   | PowerFlex, PowerStore | Showcase IaC. Covers: <br> 1. Build/Modify code with Visual Studio Code (integration with Git) <br> 2. Source code management <br> 3. Continuous integration (integration with Ansible lint/SonarQube) <br> 4. Continuous Deployment (integration with deployment tools - cloud-init, Ansible modules for PowerStore/PowerFlex). |
 | 10. GitOps with Dell Storage     | PowerFlex             |                                                                                                                                             |
 
+
 ## LAB diagram
 
 ![image](https://github.com/user-attachments/assets/81f93e8b-d750-443a-ab03-d571d46dbba0)
