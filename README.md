@@ -21,6 +21,7 @@ In the initial phase, Phase I use cases are delivered. Phase II use cases will b
 | Dell CSM Replication modules for PowerFlex & PowerStore | Ansible Lint / SonarQube                       |
 | Dell CSM Auth module for PowerFlex        | ArgoCD / FluxCD                                  |
 | Dell CSM Resiliency module for PowerFlex & PowerStore | Jenkins                                      |
+| Dell CSM Observability module for PowerFlex & PowerStore | Jenkins                                      |
 
 ## Use Cases:
 
